@@ -6,19 +6,15 @@ A **Next.js** multi-tenant Projects & Tasks management app using **Supabase** fo
 
 ---
 
-## Live Demo
+## Stack
+- Next JS
+- Supabase (PostgreSQL and Auth)
+- Shadcn UI
+- Tailwind CSS
 
-[View Live Deployment]([https://your-vercel-url.vercel.app](https://projects-management-ten.vercel.app/)
-
----
-
-## Git Repository
-
-[Public GitHub Repository](https://github.com/soulaima-chedly/projects-management)
-
-Or download as a ZIP from GitHub.
 
 ---
+
 
 ## Features
 
@@ -30,10 +26,45 @@ Or download as a ZIP from GitHub.
 
 ---
 
+## Live Demo
+
+[View Live Deployment](https://projects-management-ten.vercel.app/)
+
+---
+
 ## Setup Instructions
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/soulaima-chedly/projects-management.git
+
 cd projects-management
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Configurate env variables
+
+```bash
+cp .env.example .env
+# Edit variables if necessary
+```
+
+### 4. Run in dev env
+
+```bash
+npm run dev
+```
+
+
+### Setup with Docker
+
+``` bash
+docker build -t nextjs-app .
+docker run -p 3000:3000 nextjs-app
+```
