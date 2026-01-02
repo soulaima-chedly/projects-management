@@ -8,7 +8,7 @@ A **Next.js** multi-tenant Projects & Tasks management app using **Supabase** fo
 
 ## Live Demo
 
-[View Live Deployment](https://your-vercel-url.vercel.app)
+[View Live Deployment]([https://your-vercel-url.vercel.app](https://projects-management-ten.vercel.app/))
 
 ---
 
